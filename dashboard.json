@@ -19,9 +19,10 @@
   "editable": false,
   "fiscalYearStartMonth": 0,
   "gnetId": 10578,
-  "graphTooltip": 1,
+  "graphTooltip": 2,
   "id": 2,
   "links": [],
+  "liveNow": false,
   "panels": [
     {
       "collapsed": false,
@@ -56,6 +57,9 @@
       },
       "fieldConfig": {
         "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
           "decimals": 1,
           "mappings": [
             {
@@ -169,6 +173,9 @@
       },
       "fieldConfig": {
         "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
           "decimals": 1,
           "mappings": [
             {
@@ -293,6 +300,9 @@
       },
       "fieldConfig": {
         "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
           "decimals": 1,
           "mappings": [
             {
@@ -411,6 +421,9 @@
       },
       "fieldConfig": {
         "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
           "decimals": 1,
           "mappings": [
             {
@@ -529,6 +542,9 @@
       },
       "fieldConfig": {
         "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
           "decimals": 0,
           "mappings": [
             {
@@ -647,6 +663,9 @@
       },
       "fieldConfig": {
         "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
           "decimals": 0,
           "mappings": [
             {
@@ -764,6 +783,9 @@
       },
       "fieldConfig": {
         "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
           "decimals": 0,
           "mappings": [
             {
@@ -881,6 +903,9 @@
       },
       "fieldConfig": {
         "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
           "mappings": [
             {
               "options": {
@@ -924,11 +949,9 @@
       "id": 61861,
       "maxDataPoints": 100,
       "options": {
-        "colorMode": "value",
-        "graphMode": "none",
-        "justifyMode": "auto",
+        "minVizHeight": 75,
+        "minVizWidth": 75,
         "orientation": "horizontal",
-        "percentChangeColorMode": "standard",
         "reduceOptions": {
           "calcs": [
             "lastNotNull"
@@ -936,9 +959,9 @@
           "fields": "",
           "values": false
         },
-        "showPercentChange": false,
-        "textMode": "auto",
-        "wideLayout": true
+        "showThresholdLabels": false,
+        "showThresholdMarkers": true,
+        "sizing": "auto"
       },
       "pluginVersion": "11.1.0",
       "targets": [
@@ -1003,7 +1026,7 @@
         }
       ],
       "title": "CPU usage",
-      "type": "stat"
+      "type": "gauge"
     },
     {
       "datasource": {
@@ -1012,6 +1035,9 @@
       },
       "fieldConfig": {
         "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
           "mappings": [
             {
               "options": {
@@ -1055,11 +1081,9 @@
       "id": 61860,
       "maxDataPoints": 100,
       "options": {
-        "colorMode": "value",
-        "graphMode": "none",
-        "justifyMode": "auto",
+        "minVizHeight": 75,
+        "minVizWidth": 75,
         "orientation": "horizontal",
-        "percentChangeColorMode": "standard",
         "reduceOptions": {
           "calcs": [
             "lastNotNull"
@@ -1067,9 +1091,9 @@
           "fields": "",
           "values": false
         },
-        "showPercentChange": false,
-        "textMode": "auto",
-        "wideLayout": true
+        "showThresholdLabels": false,
+        "showThresholdMarkers": true,
+        "sizing": "auto"
       },
       "pluginVersion": "11.1.0",
       "targets": [
@@ -1121,7 +1145,7 @@
         }
       ],
       "title": "RAM usage",
-      "type": "stat"
+      "type": "gauge"
     },
     {
       "datasource": {
@@ -1130,6 +1154,9 @@
       },
       "fieldConfig": {
         "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
           "decimals": 0,
           "mappings": [
             {
@@ -1174,11 +1201,9 @@
       "id": 61863,
       "maxDataPoints": 100,
       "options": {
-        "colorMode": "value",
-        "graphMode": "none",
-        "justifyMode": "auto",
+        "minVizHeight": 75,
+        "minVizWidth": 75,
         "orientation": "horizontal",
-        "percentChangeColorMode": "standard",
         "reduceOptions": {
           "calcs": [
             "lastNotNull"
@@ -1186,9 +1211,9 @@
           "fields": "",
           "values": false
         },
-        "showPercentChange": false,
-        "textMode": "auto",
-        "wideLayout": true
+        "showThresholdLabels": false,
+        "showThresholdMarkers": true,
+        "sizing": "auto"
       },
       "pluginVersion": "11.1.0",
       "targets": [
@@ -1240,7 +1265,7 @@
         }
       ],
       "title": "Swap usage",
-      "type": "stat"
+      "type": "gauge"
     },
     {
       "datasource": {
@@ -1249,6 +1274,9 @@
       },
       "fieldConfig": {
         "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
           "decimals": 0,
           "mappings": [
             {
@@ -1293,11 +1321,9 @@
       "id": 61866,
       "maxDataPoints": 100,
       "options": {
-        "colorMode": "value",
-        "graphMode": "none",
-        "justifyMode": "auto",
+        "minVizHeight": 75,
+        "minVizWidth": 75,
         "orientation": "horizontal",
-        "percentChangeColorMode": "standard",
         "reduceOptions": {
           "calcs": [
             "lastNotNull"
@@ -1305,9 +1331,9 @@
           "fields": "",
           "values": false
         },
-        "showPercentChange": false,
-        "textMode": "auto",
-        "wideLayout": true
+        "showThresholdLabels": false,
+        "showThresholdMarkers": true,
+        "sizing": "auto"
       },
       "pluginVersion": "11.1.0",
       "targets": [
@@ -1365,7 +1391,7 @@
         }
       ],
       "title": "RootFS used",
-      "type": "stat"
+      "type": "gauge"
     },
     {
       "datasource": {
@@ -1390,8 +1416,6 @@
               "type": "special"
             }
           ],
-          "max": 100,
-          "min": 0,
           "thresholds": {
             "mode": "absolute",
             "steps": [
@@ -1652,6 +1676,7 @@
           "sort": "none"
         }
       },
+      "pluginVersion": "10.0.1",
       "targets": [
         {
           "alias": "$tag_host: $col",
@@ -1815,6 +1840,7 @@
           "sort": "none"
         }
       },
+      "pluginVersion": "10.0.1",
       "targets": [
         {
           "alias": "$tag_host: $col",
@@ -1991,6 +2017,7 @@
           "sort": "none"
         }
       },
+      "pluginVersion": "10.0.1",
       "targets": [
         {
           "alias": "$tag_host: $col",
@@ -2131,6 +2158,7 @@
           "sort": "none"
         }
       },
+      "pluginVersion": "10.0.1",
       "targets": [
         {
           "alias": "$tag_host: $col",
@@ -2183,48 +2211,90 @@
       "type": "timeseries"
     },
     {
-      "aliasColors": {},
-      "autoMigrateFrom": "graph",
-      "bars": false,
-      "dashLength": 10,
-      "dashes": false,
       "datasource": {
         "type": "influxdb",
         "uid": "adr9ob2p6qa68e"
       },
-      "editable": true,
-      "error": false,
-      "fill": 1,
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisBorderShow": false,
+            "axisCenteredZero": false,
+            "axisColorMode": "text",
+            "axisLabel": "",
+            "axisPlacement": "auto",
+            "barAlignment": 0,
+            "drawStyle": "line",
+            "fillOpacity": 10,
+            "gradientMode": "none",
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "insertNulls": false,
+            "lineInterpolation": "linear",
+            "lineWidth": 1,
+            "pointSize": 5,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "showPoints": "never",
+            "spanNulls": true,
+            "stacking": {
+              "group": "A",
+              "mode": "none"
+            },
+            "thresholdsStyle": {
+              "mode": "off"
+            }
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          },
+          "unit": "ops"
+        },
+        "overrides": []
+      },
       "gridPos": {
         "h": 10,
         "w": 12,
         "x": 0,
         "y": 23
       },
-      "height": "",
       "id": 61855,
-      "legend": {
-        "alignAsTable": true,
-        "avg": true,
-        "current": true,
-        "max": true,
-        "min": true,
-        "rightSide": false,
-        "show": true,
-        "total": false,
-        "values": true
+      "options": {
+        "legend": {
+          "calcs": [
+            "mean",
+            "lastNotNull",
+            "max",
+            "min"
+          ],
+          "displayMode": "table",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "none"
+        }
       },
-      "lines": true,
-      "linewidth": 1,
-      "nullPointMode": "connected",
-      "percentage": false,
-      "pointradius": 5,
-      "points": false,
-      "renderer": "flot",
-      "seriesOverrides": [],
-      "spaceLength": 10,
-      "stack": false,
-      "steppedLine": false,
+      "pluginVersion": "10.0.1",
       "targets": [
         {
           "alias": "$tag_host: $col",
@@ -2276,80 +2346,94 @@
           ]
         }
       ],
-      "thresholds": [],
-      "timeRegions": [],
       "title": "Context switches",
-      "tooltip": {
-        "msResolution": false,
-        "shared": true,
-        "sort": 0,
-        "value_type": "individual"
-      },
-      "type": "timeseries",
-      "xaxis": {
-        "mode": "time",
-        "show": true,
-        "values": []
-      },
-      "yaxes": [
-        {
-          "format": "ops",
-          "logBase": 1,
-          "show": true
-        },
-        {
-          "format": "short",
-          "logBase": 1,
-          "show": true
-        }
-      ],
-      "yaxis": {
-        "align": false
-      }
+      "type": "timeseries"
     },
     {
-      "aliasColors": {},
-      "autoMigrateFrom": "graph",
-      "bars": false,
-      "dashLength": 10,
-      "dashes": false,
       "datasource": {
         "type": "influxdb",
         "uid": "adr9ob2p6qa68e"
       },
-      "editable": true,
-      "error": false,
-      "fill": 1,
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisBorderShow": false,
+            "axisCenteredZero": false,
+            "axisColorMode": "text",
+            "axisLabel": "",
+            "axisPlacement": "auto",
+            "barAlignment": 0,
+            "drawStyle": "line",
+            "fillOpacity": 10,
+            "gradientMode": "none",
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "insertNulls": false,
+            "lineInterpolation": "linear",
+            "lineWidth": 1,
+            "pointSize": 5,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "showPoints": "never",
+            "spanNulls": true,
+            "stacking": {
+              "group": "A",
+              "mode": "none"
+            },
+            "thresholdsStyle": {
+              "mode": "off"
+            }
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          },
+          "unit": "ops"
+        },
+        "overrides": []
+      },
       "gridPos": {
         "h": 10,
         "w": 12,
         "x": 12,
         "y": 23
       },
-      "height": "",
       "id": 61960,
-      "legend": {
-        "alignAsTable": true,
-        "avg": true,
-        "current": true,
-        "max": true,
-        "min": true,
-        "rightSide": false,
-        "show": true,
-        "total": false,
-        "values": true
+      "options": {
+        "legend": {
+          "calcs": [
+            "mean",
+            "lastNotNull",
+            "max",
+            "min"
+          ],
+          "displayMode": "table",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "none"
+        }
       },
-      "lines": true,
-      "linewidth": 1,
-      "nullPointMode": "connected",
-      "percentage": false,
-      "pointradius": 5,
-      "points": false,
-      "renderer": "flot",
-      "seriesOverrides": [],
-      "spaceLength": 10,
-      "stack": false,
-      "steppedLine": false,
+      "pluginVersion": "10.0.1",
       "targets": [
         {
           "alias": "$tag_host: $col",
@@ -2401,36 +2485,8 @@
           ]
         }
       ],
-      "thresholds": [],
-      "timeRegions": [],
       "title": "Forks",
-      "tooltip": {
-        "msResolution": false,
-        "shared": true,
-        "sort": 0,
-        "value_type": "individual"
-      },
-      "type": "timeseries",
-      "xaxis": {
-        "mode": "time",
-        "show": true,
-        "values": []
-      },
-      "yaxes": [
-        {
-          "format": "ops",
-          "logBase": 1,
-          "show": true
-        },
-        {
-          "format": "short",
-          "logBase": 1,
-          "show": true
-        }
-      ],
-      "yaxis": {
-        "align": false
-      }
+      "type": "timeseries"
     },
     {
       "collapsed": false,
@@ -2472,6 +2528,7 @@
       "editable": true,
       "error": false,
       "fill": 1,
+      "fillGradient": 0,
       "grid": {},
       "gridPos": {
         "h": 7,
@@ -2479,6 +2536,7 @@
         "x": 0,
         "y": 34
       },
+      "hiddenSeries": false,
       "id": 42026,
       "interval": "$inter",
       "legend": {
@@ -2495,7 +2553,11 @@
       "lines": true,
       "linewidth": 2,
       "nullPointMode": "connected",
+      "options": {
+        "alertThreshold": true
+      },
       "percentage": false,
+      "pluginVersion": "10.0.1",
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
@@ -2670,6 +2732,7 @@
       "editable": true,
       "error": false,
       "fill": 1,
+      "fillGradient": 0,
       "grid": {},
       "gridPos": {
         "h": 7,
@@ -2677,6 +2740,7 @@
         "x": 12,
         "y": 34
       },
+      "hiddenSeries": false,
       "id": 28572,
       "interval": "$inter",
       "legend": {
@@ -2693,7 +2757,11 @@
       "lines": false,
       "linewidth": 1,
       "nullPointMode": "connected",
+      "options": {
+        "alertThreshold": true
+      },
       "percentage": false,
+      "pluginVersion": "10.0.1",
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
@@ -2862,6 +2930,7 @@
       "editable": true,
       "error": false,
       "fill": 1,
+      "fillGradient": 0,
       "grid": {},
       "gridPos": {
         "h": 7,
@@ -2869,6 +2938,7 @@
         "x": 0,
         "y": 41
       },
+      "hiddenSeries": false,
       "id": 58901,
       "interval": "$inter",
       "legend": {
@@ -2885,7 +2955,11 @@
       "lines": false,
       "linewidth": 1,
       "nullPointMode": "connected",
+      "options": {
+        "alertThreshold": true
+      },
       "percentage": false,
+      "pluginVersion": "10.0.1",
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
@@ -3047,6 +3121,7 @@
       "editable": true,
       "error": false,
       "fill": 1,
+      "fillGradient": 0,
       "grid": {},
       "gridPos": {
         "h": 7,
@@ -3054,6 +3129,7 @@
         "x": 12,
         "y": 41
       },
+      "hiddenSeries": false,
       "id": 50643,
       "interval": "$inter",
       "legend": {
@@ -3070,7 +3146,11 @@
       "lines": false,
       "linewidth": 2,
       "nullPointMode": "connected",
+      "options": {
+        "alertThreshold": true
+      },
       "percentage": false,
+      "pluginVersion": "10.0.1",
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
@@ -3258,6 +3338,7 @@
       "editable": true,
       "error": false,
       "fill": 1,
+      "fillGradient": 0,
       "grid": {},
       "gridPos": {
         "h": 7,
@@ -3265,6 +3346,7 @@
         "x": 0,
         "y": 49
       },
+      "hiddenSeries": false,
       "id": 26024,
       "interval": "$inter",
       "legend": {
@@ -3282,7 +3364,11 @@
       "lines": true,
       "linewidth": 1,
       "nullPointMode": "connected",
+      "options": {
+        "alertThreshold": true
+      },
       "percentage": false,
+      "pluginVersion": "10.0.1",
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
@@ -3387,6 +3473,7 @@
       "editable": true,
       "error": false,
       "fill": 1,
+      "fillGradient": 0,
       "grid": {},
       "gridPos": {
         "h": 7,
@@ -3394,6 +3481,7 @@
         "x": 12,
         "y": 49
       },
+      "hiddenSeries": false,
       "id": 61850,
       "interval": "$inter",
       "legend": {
@@ -3411,7 +3499,11 @@
       "lines": true,
       "linewidth": 1,
       "nullPointMode": "connected",
+      "options": {
+        "alertThreshold": true
+      },
       "percentage": false,
+      "pluginVersion": "10.0.1",
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
@@ -3545,6 +3637,7 @@
       "editable": true,
       "error": false,
       "fill": 1,
+      "fillGradient": 0,
       "grid": {},
       "gridPos": {
         "h": 7,
@@ -3552,6 +3645,7 @@
         "x": 0,
         "y": 57
       },
+      "hiddenSeries": false,
       "id": 13782,
       "interval": "$inter",
       "legend": {
@@ -3572,7 +3666,11 @@
       "linewidth": 1,
       "maxPerRow": 3,
       "nullPointMode": "connected",
+      "options": {
+        "alertThreshold": true
+      },
       "percentage": false,
+      "pluginVersion": "10.0.1",
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
@@ -3737,6 +3835,7 @@
       "editable": true,
       "error": false,
       "fill": 1,
+      "fillGradient": 0,
       "grid": {},
       "gridPos": {
         "h": 7,
@@ -3744,6 +3843,7 @@
         "x": 8,
         "y": 57
       },
+      "hiddenSeries": false,
       "id": 60200,
       "interval": "$inter",
       "legend": {
@@ -3764,7 +3864,11 @@
       "linewidth": 1,
       "maxPerRow": 3,
       "nullPointMode": "connected",
+      "options": {
+        "alertThreshold": true
+      },
       "percentage": false,
+      "pluginVersion": "10.0.1",
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
@@ -3929,6 +4033,7 @@
       "editable": true,
       "error": false,
       "fill": 1,
+      "fillGradient": 0,
       "grid": {},
       "gridPos": {
         "h": 7,
@@ -3936,6 +4041,7 @@
         "x": 16,
         "y": 57
       },
+      "hiddenSeries": false,
       "id": 56720,
       "interval": "$inter",
       "legend": {
@@ -3956,7 +4062,11 @@
       "linewidth": 1,
       "maxPerRow": 3,
       "nullPointMode": "connected",
+      "options": {
+        "alertThreshold": true
+      },
       "percentage": false,
+      "pluginVersion": "10.0.1",
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
@@ -4148,6 +4258,7 @@
       "editable": true,
       "error": false,
       "fill": 1,
+      "fillGradient": 0,
       "grid": {},
       "gridPos": {
         "h": 7,
@@ -4155,6 +4266,7 @@
         "x": 0,
         "y": 65
       },
+      "hiddenSeries": false,
       "id": 52240,
       "interval": "$inter",
       "legend": {
@@ -4173,7 +4285,11 @@
       "linewidth": 1,
       "maxPerRow": 2,
       "nullPointMode": "connected",
+      "options": {
+        "alertThreshold": true
+      },
       "percentage": false,
+      "pluginVersion": "10.0.1",
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
@@ -4289,6 +4405,7 @@
       "editable": true,
       "error": false,
       "fill": 1,
+      "fillGradient": 0,
       "grid": {},
       "gridPos": {
         "h": 7,
@@ -4296,6 +4413,7 @@
         "x": 12,
         "y": 65
       },
+      "hiddenSeries": false,
       "id": 33458,
       "interval": "$inter",
       "legend": {
@@ -4314,7 +4432,11 @@
       "linewidth": 1,
       "maxPerRow": 2,
       "nullPointMode": "connected",
+      "options": {
+        "alertThreshold": true
+      },
       "percentage": false,
+      "pluginVersion": "10.0.1",
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
@@ -4502,6 +4624,7 @@
         "name": "datasource",
         "options": [],
         "query": "influxdb",
+        "queryValue": "",
         "refresh": 1,
         "regex": "",
         "skipUrlSync": false,
@@ -4575,7 +4698,7 @@
       },
       {
         "current": {
-          "selected": false,
+          "selected": true,
           "text": "raspberrypi5",
           "value": "raspberrypi5"
         },
@@ -4600,9 +4723,13 @@
       },
       {
         "current": {
-          "selected": false,
-          "text": "All",
-          "value": "$__all"
+          "selected": true,
+          "text": [
+            "All"
+          ],
+          "value": [
+            "$__all"
+          ]
         },
         "datasource": {
           "type": "influxdb",
@@ -4625,9 +4752,13 @@
       },
       {
         "current": {
-          "selected": false,
-          "text": "All",
-          "value": "$__all"
+          "selected": true,
+          "text": [
+            "All"
+          ],
+          "value": [
+            "$__all"
+          ]
         },
         "datasource": {
           "type": "influxdb",
@@ -4650,9 +4781,13 @@
       },
       {
         "current": {
-          "selected": false,
-          "text": "All",
-          "value": "$__all"
+          "selected": true,
+          "text": [
+            "All"
+          ],
+          "value": [
+            "$__all"
+          ]
         },
         "datasource": {
           "type": "influxdb",
@@ -4675,9 +4810,13 @@
       },
       {
         "current": {
-          "selected": false,
-          "text": "All",
-          "value": "$__all"
+          "selected": true,
+          "text": [
+            "All"
+          ],
+          "value": [
+            "$__all"
+          ]
         },
         "datasource": {
           "type": "influxdb",
@@ -4732,6 +4871,6 @@
   "timezone": "browser",
   "title": "Raspberry Pi Monitoring",
   "uid": "sF7d-FHZz",
-  "version": 2,
+  "version": 12,
   "weekStart": ""
 }
