@@ -86,3 +86,11 @@
 ## Result
 
 ![dashboard.png](assets/dashboard.png)
+
+## P.S.:
+
+Source: https://grafana.com/grafana/dashboards/10578-raspberry-pi-monitoring/
+
+This dashboard contains multiples sections with the goal to monitor a full Raspberry Pi board or boards, we have some
+sections to monitor the Linux and machine overall performance, and temperature.
+[Special thanks to Lex Rivera for his Linux System dashboard](https://grafana.com/orgs/lex)
