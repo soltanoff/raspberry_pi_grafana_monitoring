@@ -79,7 +79,14 @@
        ![influxdb_http.png](assets/influxdb_http.png)
     2. Set `telegraf` settings (P.S.: password is `telegraf_linux`)
        ![influxdb_telegraf.png](assets/influxdb_telegraf.png)
-5. Import dashboard from [dashboard.json](dashboard.json)
+   3. Save the datasource UID.
+      ![datasource_uid.png](assets/datasource_uid.png)
+   4. Create a `dashboard.json` from [dashboard.json.template](dashboard.json.template)
+      ```shell
+      cp dashboard.json.template dashboard.json
+      ```
+   5. Replace `<PUT_UID_HERE>` with the uid of your data source in `dashboard.json`
+5. Import dashboard from your `dashboard.json`
 6. ???
 7. PROFIT
 
